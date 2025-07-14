@@ -23,6 +23,6 @@ $pp->requireReCaptcha();
 $pp->getReCaptcha()->initSecretKey('copy-your-secretkey-here');
 
 
-$pp->sendEmailTo('your-email-here'); // ← Your email here
+$pp->sendEmailTo('contact@evurjavahan.in'); // ← Your email here
 
 echo $pp->process($_POST);
